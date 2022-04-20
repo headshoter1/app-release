@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/coordinatorLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/sc1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/rl1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/textWelcome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/dwelcome" />
+            <TextView android:gravity="fill" android:id="@id/textIntro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/dintro" android:textAlignment="gravity" android:elegantTextHeight="false" />
+            <Button android:id="@id/d1button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d1" android:onClick="startChallenge" />
+            <Button android:id="@id/d2button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d2" android:onClick="startChallenge" />
+            <Button android:id="@id/d3button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d3" android:onClick="startChallenge" />
+            <Button android:id="@id/d4button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d4" android:onClick="startChallenge" />
+            <Button android:id="@id/d5button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d5" android:onClick="startChallenge" />
+            <Button android:id="@id/d6button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d6" android:onClick="startChallenge" />
+            <Button android:id="@id/d7button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d7" android:onClick="startChallenge" />
+            <Button android:id="@id/d8button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d8" android:onClick="startChallenge" />
+            <Button android:id="@id/d8button2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d8_2" android:onClick="startChallenge" />
+            <Button android:id="@id/d9button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d9" android:onClick="startChallenge" />
+            <Button android:id="@id/d10button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d10" android:onClick="startChallenge" />
+            <Button android:id="@id/d11button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d11" android:onClick="startChallenge" />
+            <Button android:id="@id/d12button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d12" android:onClick="startChallenge" />
+            <Button android:id="@id/d13button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d13" android:onClick="startChallenge" />
+            <Button android:id="@id/d14button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_file" android:onClick="startChallenge" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
